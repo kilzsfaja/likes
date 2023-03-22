@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  width: 600px;
+  color: aliceblue;
+  padding: 0.5rem;
+  margin: 0 auto;
+}
+
+.feed {
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* JAMES DOE AVATAR */
+
+.avatar {
+  margin-top: 0;
+}
+
+.boxcard {
+  border: 2px solid black;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.avatar-icon {
+  width: 7rem;
+  padding: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* PROFILES */
+
+.boxcard-header {
+  padding-bottom: 1rem;
+}
+
+/* UTILITY CLASSES */
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.jstart {
+  justify-content: flex-start;
+}
+
+.btn {
+  background-color: gold;
+  border: 3px solid black;
+  box-shadow: 3px 3px 2px;
+  padding: 3px 8px;
+  cursor: pointer;
+}
